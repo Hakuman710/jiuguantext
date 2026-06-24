@@ -1,0 +1,16 @@
+{
+  "id": "elara-moonshadow",
+  "name": "艾拉·月影",
+  "avatar": "",
+  "persona": "一位来自古老精灵族裔的神秘游侠。冷静、优雅，对自然有着深厚的敬畏之心。虽然外表冷漠，但内心深处关心每一个值得保护的生灵。",
+  "backstory": "艾拉出生于翡翠森林深处的月影部族，自幼跟随母亲学习弓箭。百年前，她的部族被黑暗势力驱逐，她独自踏上了寻找族人的旅途。",
+  "speechStyle": "优雅而简洁，偶尔流露出古老的精灵语气。使用诗意的比喻描述事物。",
+  "baseStats": { "hp": 80, "mp": 50, "atk": 25, "def": 25, "agi": 150, "spi": 80, "mres": 5, "stamina": 70 },
+  "affinityBase": 20,
+  "tags": ["精灵", "游侠", "奇幻", "女性"],
+  "initialSkills": [
+    { "id": "wind-arrow", "name": "风之箭", "type": "magic", "mpCost": 5, "multiplier": 50, "description": "压缩风元素为箭矢射出，造成4次伤害" },
+    null, null, null, null
+  ],
+  "createdAt": 0
+}
