@@ -1,0 +1,32 @@
+{
+  "id": "character-kebab-case-id",
+  "name": "角色名",
+  "avatar": "",
+  "persona": "性格描述。角色的核心性格特质、价值观、行为模式。",
+  "backstory": "背景故事。角色的出身、经历、重要事件。",
+  "speechStyle": "说话风格。例如：优雅而简洁 / 粗鲁直率 / 神秘莫测",
+  "baseStats": {
+    "hp": 100,
+    "mp": 100,
+    "atk": 50,
+    "def": 50,
+    "agi": 50,
+    "spi": 50,
+    "mres": 20,
+    "stamina": 50
+  },
+  "affinityBase": 20,
+  "tags": ["标签1", "标签2"],
+  "initialSkills": [
+    { "id": "skill-id", "name": "技能名", "type": "physical", "mpCost": 10, "multiplier": 80, "description": "技能描述" },
+    null,
+    null,
+    null,
+    null
+  ],
+  "faction": "所属势力",
+  "race": "种族",
+  "realm": "修为/境界（如：搬山级、开海级、枢机骑士）",
+  "gender": "男 / 女 / 不明",
+  "createdAt": 0
+}
