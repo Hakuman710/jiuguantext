@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --color-parchment: #ece4d0;
+  --color-parchment-dark: #b8ad98;
+  --color-tavern-wood: #0d1b2a;
+  --color-tavern-wood-light: #1a3147;
+  --color-amber-glow: #c4a040;
+  --color-ember: #d97706;
+  --color-ember-light: #f08c00;
+  --color-ink: #e8e0d5;
+  --color-cosmic: #0f1923;
+  --color-cosmic-light: #152230;
+  --font-family-serif: 'Georgia', 'Times New Roman', serif;
+  --font-family-sans: 'Segoe UI', system-ui, sans-serif;
+}
+
+body {
+  @apply bg-cosmic text-ink font-sans;
+}
