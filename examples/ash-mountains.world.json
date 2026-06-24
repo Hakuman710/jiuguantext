@@ -1,0 +1,23 @@
+{
+  "id": "ash-mountains",
+  "name": "灰烬山脉",
+  "description": "一片被远古战争烧焦的土地，火山灰覆盖着大地，但荒野中依然有生命顽强生存。巨龙阿卡托斯盘踞在北方的火山口中，山下的小镇在恐惧中艰难维生。",
+  "locations": [
+    { "id": "ironforge-tavern", "name": "铁炉酒馆", "description": "灰烬山脉脚下唯一的旅馆，壁炉里永远燃烧着驱寒的火焰。冒险者们在此交换情报，喝一杯烈酒暖身。", "connectedTo": ["crossroads", "ash-mines"] },
+    { "id": "crossroads", "name": "灰烬十字路口", "description": "几条山路的交汇处，一座破损的路标歪斜地立着。往北通向火山口，往南通往人类王国。", "connectedTo": ["ironforge-tavern", "volcano-path"] },
+    { "id": "volcano-path", "name": "火山小径", "description": "陡峭的山路蜿蜒向上，空气中弥漫着硫磺味。远处可以听到低沉的龙吟。", "connectedTo": ["crossroads", "dragon-peak"] },
+    { "id": "dragon-peak", "name": "龙之峰", "description": "火山口的边缘，炽热的岩浆在深处翻涌。传说中巨龙阿卡托斯的巢穴就在此处。", "connectedTo": ["volcano-path"] },
+    { "id": "ash-mines", "name": "灰烬矿坑", "description": "废弃的旧矿场，据说深处埋藏着远古矮人的宝藏。但近来有地精在此出没。", "connectedTo": ["ironforge-tavern"] }
+  ],
+  "loreEntries": [
+    { "id": "lore-dragon", "keys": ["巨龙", "阿卡托斯", "龙"], "content": "远古巨龙阿卡托斯统治着北方的灰烬山脉，传说它的鳞片由熔岩铸成，每一次振翅都掀起热浪。它从不主动攻击人类，但任何靠近龙之峰的人都有去无回。", "priority": 10 },
+    { "id": "lore-war", "keys": ["远古战争", "灰烬", "焦土"], "content": "一千年前，诸神与巨龙的战争将这片土地化为焦土。精灵和矮人曾是盟友，但在战争结束后各自隐退。", "priority": 5 },
+    { "id": "lore-tavern", "keys": ["铁炉酒馆", "酒馆", "老板"], "content": "铁炉酒馆由退休矮人冒险者巴尔丁经营，他知晓灰烬山脉每一处危险。据说他有通往矿坑深处的秘密地图。", "priority": 8 }
+  ],
+  "timeRules": { "enabled": true, "dayLength": 10, "startHour": 8 },
+  "npcs": [
+    { "id": "npc-balding", "name": "巴尔丁", "description": "铁炉酒馆的矮人老板，前冒险者。性格豪爽，藏着很多秘密。", "location": "ironforge-tavern" },
+    { "id": "npc-goblin-chief", "name": "格拉什", "description": "占据矿坑的地精首领，狡诈而残忍。", "location": "ash-mines" }
+  ],
+  "createdAt": 0
+}
