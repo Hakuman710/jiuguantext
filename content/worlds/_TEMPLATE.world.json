@@ -1,0 +1,31 @@
+{
+  "id": "world-id",
+  "name": "世界名称",
+  "description": "世界整体描述。涵盖世界观、历史背景、核心冲突。2-5句话。",
+  "locations": [
+    {
+      "id": "location-id",
+      "name": "地点名称",
+      "description": "地点场景描述。",
+      "connectedTo": ["other-location-id"]
+    }
+  ],
+  "loreEntries": [
+    {
+      "id": "lore-id",
+      "keys": ["触发词1", "触发词2", "触发词3"],
+      "content": "Lore内容。当玩家消息中包含任意触发词时自动注入AI上下文。",
+      "priority": 10
+    }
+  ],
+  "timeRules": { "enabled": true, "dayLength": 10, "startHour": 8 },
+  "npcs": [
+    {
+      "id": "npc-id",
+      "name": "NPC名称",
+      "description": "NPC的简短描述和身份。",
+      "location": "location-id（可选，关联地点）"
+    }
+  ],
+  "createdAt": 0
+}
